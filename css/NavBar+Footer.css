@@ -19,7 +19,6 @@
   font-size: 28px;
   font-weight: 700;
   color: #fff;
-  margin-top: 9px;
   padding: 10px 10px 10px 10px;
 }
 .nav > .nav-btn {
@@ -91,6 +90,21 @@ font-size: 18px;
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+}
+/*_________________________POLICE_________________________*/
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  margin-bottom: 25px;
+  color: rgb(201, 173, 198);
+  font-weight: 900;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 
