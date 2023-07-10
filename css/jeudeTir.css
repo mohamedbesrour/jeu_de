@@ -1,0 +1,59 @@
+/* Police d'écriture */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    height: 5%;
+    background-position: center;
+    background-size: cover;
+}
+.game2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game_infos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    border: 1px solid #999;
+    cursor:crosshair; /*met la croix*/
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    overflow: hidden; /*les élément ne sortirons pas du container*/
+}
+#target{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    transition: 0.25s;
+    animation: animateTarget 10s infinite;
+}
+
+button{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #3C7103;
+    border: 0;
+    color: #FFF;
+    border-radius: 6px;
+    cursor: pointer;
+}
+@keyframes animateTarget {
+    to {
+        transform: translateY(-200px) rotate(90deg0);
+    }
+}
